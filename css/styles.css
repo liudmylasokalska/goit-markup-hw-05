@@ -675,7 +675,7 @@ border: none;
     margin-bottom: 24px;
  }
 
- .custom-checkbox {
+ .custom-checkox {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     width: 16px;
@@ -705,8 +705,7 @@ border: none;
     color: #4d5ae5;
  }
 
-.checkbox:checked + .label-checkbox
-.custom-checkbox {
+.checkbox:checked + .label-checkbox.custom-checkbox {
    border: transparent;
    fill: #f4f4fd;
    background-color:#404bbf;
