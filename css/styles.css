@@ -515,7 +515,6 @@ background-color: #31d0aa;}
 }
 
 .subscribe-btn {
-    position: absolute;
     cursor: pointer;
     min-width: 165px;
     height: 40px;
@@ -526,6 +525,7 @@ background-color: #31d0aa;}
     line-height: 1.5;
     letter-spacing: 0.04em;
     justify-content: center;
+    align-items: center;
     text-align: center;
     color: #fff;
     border:none;
@@ -537,6 +537,9 @@ background-color: #31d0aa;}
 .button-icon {
     fill: #fff;
     margin-left: 16px;
+}
+.footer-subscribe {
+    margin-left: 80px;
 }
 
 /* #endregion footer */
@@ -643,6 +646,7 @@ border: none;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     padding-left: 38px;
+    line-height: 2;
     background-color: transparent;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -675,7 +679,7 @@ border: none;
     margin-bottom: 24px;
  }
 
- .custom-checkox {
+ .custom-checkbox {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     width: 16px;
@@ -705,12 +709,11 @@ border: none;
     color: #4d5ae5;
  }
 
-.checkbox:checked + .label-checkbox.custom-checkbox {
-   border: transparent;
+.checkbox:checked + .label-checkbox .custom-checkbox {
+   border: none;
    fill: #f4f4fd;
    background-color:#404bbf;
    border-radius: 2px;
-   border: 1px solid;
 }
 .modal-block-container.textarea {
     margin-bottom: 16px;
