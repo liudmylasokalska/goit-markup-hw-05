@@ -493,10 +493,9 @@ background-color: #31d0aa;}
 
 .footer-email-form {
     display: flex;
+    gap: 24px;
 }
-.footer-label {
-    gap:24px;
-}
+
 .footer-form-input {
     width: 264px;
     height: 40px;
@@ -607,6 +606,7 @@ background-color: #31d0aa;}
 .close-btn:focus {
 background-color: #404bbf;
 fill: #fff;
+border: none;
 }
 .modal-text{
     font-weight:500;
